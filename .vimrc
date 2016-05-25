@@ -51,6 +51,9 @@ nnoremap B ^
 nnoremap E $
 inoremap jk <Esc>
 
+" Decrease the timeout
+set timeoutlen=200
+
 "Replace common functions for writing
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
