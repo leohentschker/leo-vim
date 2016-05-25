@@ -4,4 +4,4 @@ Storing the vimrc that I am currently using so that it can be synchronized acros
 
 ### How to install
 Clone in the repo and then link the .vimrc to your home directory.
-* ssh -T git@github.com && git clone git@github.com:leohentschker/leo-vim.git ~/.vim && ln -s ~/.vim/.vimrc ~/.vimrc
+* rm -rf ~/.vim && rm -f ~/.vimrc && git clone git@github.com:leohentschker/leo-vim.git .vim && git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim && ln -s ~/.vim/.vimrc ~/.vimrc
