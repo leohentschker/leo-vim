@@ -23,6 +23,7 @@ Plugin 'altercation/vim-colors-solarized'
 
 " Control p
 Plugin 'kien/ctrlp.vim'
+Plugin 'ervandew/supertab'
 call vundle#end()
 
 " Appearance
@@ -31,7 +32,6 @@ syntax enable
 colorscheme monokai
 
 set mouse=a "Click with the mouse
-
 
 " Spacing
 set tabstop=4 "4 spaces for tab
@@ -50,6 +50,11 @@ let mapleader="\<Space>" "Use space bar as the leader key
 nnoremap B ^
 nnoremap E $
 inoremap jk <Esc>
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+nmap ; :
 
 " Decrease the timeout
 set timeoutlen=200
@@ -57,3 +62,4 @@ set timeoutlen=200
 "Replace common functions for writing
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
+nnoremap <Leader>q :q<CR>
