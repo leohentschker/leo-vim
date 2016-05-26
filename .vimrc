@@ -43,6 +43,7 @@ set expandtab " tab with spaces
 set lazyredraw " redraw only when we need to.
 set showmatch "Highlight the closing parend
 set autoindent
+set number
 
 " Text
 set pastetoggle=<F2> "Hit f2 to enter paste mode
@@ -54,6 +55,7 @@ let mapleader="\<Space>" "Use space bar as the leader key
 nnoremap B ^
 nnoremap E $
 inoremap jk <Esc>
+vnoremap jk <Esc>
 map <up> <nop>
 map <down> <nop>
 map <left> <nop>
