@@ -56,6 +56,9 @@ map <left> <nop>
 map <right> <nop>
 nmap ; :
 
+"Add in most recent command
+nnoremap <silent> <leader>m :CtrlPMRU<CR>
+
 " Decrease the timeout
 set timeoutlen=200
 
