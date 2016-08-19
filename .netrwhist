@@ -1,2 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/leo/quorum-devops/ansible/plays/roles/git/clone/tasks'
+let g:netrw_dirhist_2='/home/leo/quorum-devops/ansible/plays/roles/installations/prod_npm_install'
+let g:netrw_dirhist_3='/home/leo/quorum-devops/ansible/plays/roles/installations/prod_npm_install/tasks'
+let g:netrw_dirhist_4='/home/leo/quorum-devops/ansible/plays/roles/ec2/instance/terminate_ec2_instances/tasks'
+let g:netrw_dirhist_5='/Users/Leo/.ssh'
