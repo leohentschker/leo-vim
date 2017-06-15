@@ -8,5 +8,8 @@ Clone in the repo and then link the .vimrc to your home directory.
 * ```git clone git@github.com:leohentschker/leo-vim.git ~/.vim``` (clone in the git repo)
 * ```git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim``` (make sure we have the most recent version of vundle)
 * ```ln -s ~/.vim/.vimrc ~/.vimrc``` (symlink the vimrc from the repo to your home vimrc)
+* ```vim +PluginInstall +qall``` (installs new vundle plugins)
 
-```rm -rf ~/.vim && rm -f ~/.vimrc is && git clone git@github.com:leohentschker/leo-vim.git ~/.vim && git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim && ln -s ~/.vim/.vimrc ~/.vimrc```
+Note: You may have to hit "Enter" to continue when prompted by Vim about missing installs
+
+```rm -rf ~/.vim && rm -f ~/.vimrc is && git clone git@github.com:leohentschker/leo-vim.git ~/.vim && git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim && ln -s ~/.vim/.vimrc ~/.vimrc && vim +PluginInstall +qall```
